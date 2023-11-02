@@ -43,5 +43,9 @@ The context around the entity offers valuable information.
 ### Bag of words(BOW)
 It disregards grammar and word order 
 ### Concept vectors
-
 #### cosine similarity(经典的求相似度方法)
+
+## solve Unlinkable
+when none of the candidate entities is suitable  
+### Add NIL as a special entity and consider it during the ranking process
+If NIL will get the highest score, then the entity is considered unlinkable.  
