@@ -49,3 +49,19 @@ It disregards grammar and word order
 when none of the candidate entities is suitable  
 ### Add NIL as a special entity and consider it during the ranking process
 If NIL will get the highest score, then the entity is considered unlinkable.  
+
+
+# WSD(Word Sense Disambiguation)
+WSD is a natural classification problem: Given a word and its possible senses, as defined by a dictionary, classify an occurrence of the word in context into one or more of its sense classes. The features of the context (such as neighboring words) provide evidence for classification.  
+
+methods to WSD are classified according to the source of knowledge used in word disambiguation.
+## dictionary-based method(use the knowledge encoded in lexical resources)
+
+### Lesk algorithm
+## supervised machine learning methods
+ classifier is trained for each distinct word on a corpus of manually sense-annotated  
+ assume that the context can provide enough evidence on its own to disambiguate the sense    
+## semi-supervised Methods
+Due to the lack of training corpus, most of the word sense disambiguation algorithms use semi-supervised learning methods.  
+# literature
+https://web.stanford.edu/~jurafsky/slp3/slides/  
