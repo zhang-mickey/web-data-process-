@@ -63,5 +63,8 @@ methods to WSD are classified according to the source of knowledge used in word 
  assume that the context can provide enough evidence on its own to disambiguate the sense    
 ## semi-supervised Methods
 Due to the lack of training corpus, most of the word sense disambiguation algorithms use semi-supervised learning methods.  
+
+### bootstrapping from seed data
+
 # literature
 https://web.stanford.edu/~jurafsky/slp3/slides/  
