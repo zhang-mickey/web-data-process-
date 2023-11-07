@@ -51,6 +51,23 @@ when none of the candidate entities is suitable
 If NIL will get the highest score, then the entity is considered unlinkable.  
 
 
+## Feed-forward network
+do not have memory
+## Recurrent neural network(RNN)
+have memory by adding cycles.   
+They are networks with loops in them, allowing information to persist.  
+<img width="90" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/d1483367-0f44-41c0-9e10-cba12fd2c1ab">  
+<img width="410" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/c183a087-0d25-4720-a85a-425bddb53306">  
+
+### LSTM
+Unfortunately, as that gap grows, RNNs become unable to learn to connect the information.  
+<img width="286" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/36a8c597-d04d-4fae-92e5-ae95c67acaa4">  
+<img width="382" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/e3a6a466-2db3-48da-8996-9f34af3611ff">  
+LSTM capable of learning long-term dependencies  
+<img width="529" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/cd2dc61f-be53-462c-bd7c-7121e4d4436e">  
+<img width="532" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/ea5b5836-39f6-4a12-ba42-cbb1a7e38e80">  
+
+
 # WSD(Word Sense Disambiguation)
 WSD is a natural classification problem: Given a word and its possible senses, as defined by a dictionary, classify an occurrence of the word in context into one or more of its sense classes. The features of the context (such as neighboring words) provide evidence for classification.  
 
