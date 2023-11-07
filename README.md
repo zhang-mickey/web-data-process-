@@ -66,6 +66,15 @@ Unfortunately, as that gap grows, RNNs become unable to learn to connect the inf
 LSTM capable of learning long-term dependencies  
 <img width="529" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/cd2dc61f-be53-462c-bd7c-7121e4d4436e">  
 <img width="532" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/ea5b5836-39f6-4a12-ba42-cbb1a7e38e80">  
+#### Forget layer decide what information we’re going to throw away
+<img width="492" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/e62498fc-823f-45d0-a75c-9acb68e1579a">
+
+#### decide what new information we’re going to store 
+<img width="520" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/f5888a42-edc7-470f-aebd-1af69d061247">  
+<img width="468" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/1457bda8-3f35-41c9-87d7-f196a3669dec">
+
+#### decide what we’re going to output
+<img width="502" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/2d69bf1e-ed94-443b-bacc-a60117cdf763">
 
 
 # WSD(Word Sense Disambiguation)
