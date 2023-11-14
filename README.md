@@ -1,3 +1,16 @@
+```
+what probability should a fact have so that it is included in all possible worlds
+```
+```
+Write the name of a popular knowledge base designed to store the meaning of English words
+```
+```
+Which of the following systems can be used for open information extraction?
+ReVerb
+DIPRE
+MALLET
+AIDA  
+```
 # web-data-process
 # NLP 
 ## Tokenization
