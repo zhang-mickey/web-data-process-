@@ -105,7 +105,13 @@ Due to the lack of training corpus, most of the word sense disambiguation algori
 
 ### bootstrapping from seed data
 
+### Statistical Inference on KGs
+
+
 # Assignment
 implement a program that improve the performance of large language models.
+(1)parse the output of a language model and to extract a clean answer.     
+(2)check,with the aid of existing knowledge bases, which are available on the web,whether the answer is correct or not.  
+
 # literature
 https://web.stanford.edu/~jurafsky/slp3/slides/  
