@@ -105,5 +105,7 @@ Due to the lack of training corpus, most of the word sense disambiguation algori
 
 ### bootstrapping from seed data
 
+# Assignment
+implement a program that improve the performance of large language models.
 # literature
 https://web.stanford.edu/~jurafsky/slp3/slides/  
