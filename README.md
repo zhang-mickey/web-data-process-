@@ -107,6 +107,14 @@ Due to the lack of training corpus, most of the word sense disambiguation algori
 
 ### Statistical Inference on KGs
 
+# Fact checking
+<img width="379" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/7ce08729-ca6e-41e9-97e9-f6c66ed18467">
+
+Given an arbitrary textual claim, determine whether the claim is credible or not  
+To trust the output of an LLM, we check
+every single claim and expect each claim of the
+generation to be supported by one or more pieces
+of evidence from reliable sources
 
 # Assignment
 implement a program that improve the performance of large language models.
