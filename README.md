@@ -33,7 +33,9 @@ Reduce terms to their root.
 two types of information extraction  
 
 ## Named Entity Recognition
-find and classify names in text  
+find and classify names in text.
+Named entity recognition is the task of identifying named entities like person, location, organization,
+drug, time, clinical procedure, biological protein, etc. in text
 ### 3 standard approaches
 `Hand-written regular expressions`
 `Using classifiers`  
@@ -43,6 +45,8 @@ uses BILSTM for entity recognition.
 #### Token embedding
 Map every character,n-gram,token into a vector of real numbers.  
 
+# Entity link
+Typically, the task of entity linking is preceded by a `named entity recognition` stage
 
 ## Relation Extraction(RE)
 # candidate Entity Ranking  
