@@ -11,7 +11,9 @@ DIPRE
 MALLET
 AIDA  
 ```
-# web-data-process
+# Wikipedia
+The structure of Wikipedia provides a set of useful features for generating candidate entities,such as entity pages,redirect pages,disambiguation pages.  
+Leverage different combinations of these features
 # NLP 
 ## Tokenization
 Given a character sequence, split it into pieces called tokens.  
@@ -47,19 +49,38 @@ Map every character,n-gram,token into a vector of real numbers.
 
 # Entity link
 Typically, the task of entity linking is preceded by a `named entity recognition` stage
-
+<img width="255" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/d2d73792-6a42-40f6-8e9a-1798cd589d34"> 
+A typical entity linking system consists of the following three modules:
+`Candidate Entity Generation`
+Approaches to candidate entity generation are mainly based on string comparison between the entity mention and the name of the entity exiting in a knowledge base.
+`Candidate Entity Ranking`
+`Unlinkable Mention Prediction`
 ## Relation Extraction(RE)
-# candidate Entity Ranking  
+## candidate Entity Ranking  
 `Context-independent features` :just rely on the surface-form of the entity mention.    
 `Context-dependent features` : also look at the context around the entity mention.   
-## Context-independent features
-### Entity popularity
+### Context-independent features
+Although context-independent features are useful,they provide information only from the entity mention and the candidate entity.   
+It is very necessary to use features related to the context where the entity mention appears.  
+#### Name String Comparison
+The name string comparison between the entity mention and the candidate entity is the most direct feature that one may use  
+The common name comparison features include:  
+<img width="239" alt="image" src="https://github.com/zhang-mickey/web-data-process-/assets/145342600/e56bb9b0-e4c4-43ab-bb77-572b251dad8d">  
+#### Entity popularity
 Given a certain mention, pick the entity which is the most popular.  
+#### Entity Type
+whether the type of the entity mention (i.e., people,location, and organization) in text is consistent with the type of the candidate entity in a knowledge base.
 ## Context-dependent features
 The context around the entity offers valuable information.  
-### Bag of words(BOW)
+
+### Textual Context
+
+#### Bag of words(BOW)
 It disregards grammar and word order 
-### Concept vectors
+For each candidate entity, the context is usually represented as a bag of words from the whole Wikipedia entity page, the first description
+paragraph of its Wikipedia page 
+#### Concept vectors
+
 #### cosine similarity(经典的求相似度方法)
 
 ## solve Unlinkable
